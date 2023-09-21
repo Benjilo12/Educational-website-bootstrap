@@ -1,0 +1,40 @@
+ body::before {
+   display: block;
+   content: '';
+   height: 60px;
+ }
+
+
+
+
+
+@media (min-width: 768px) {
+   .news-input {
+    width: 50%;
+   } 
+}
+
+.zoom {
+ overflow: hidden;
+}
+
+
+.zoom img{
+  transition: all 1.1s ease;
+}
+
+.zoom:hover img{
+  transition: scale(1.5);
+}
+
+.wrapper{
+  background-image: url(/images/neom-CuoJHB42D1I-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#map{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
